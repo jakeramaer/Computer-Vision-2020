@@ -1,7 +1,6 @@
 # Computer Vision - Detecting Dartboards Coursework (2020)
 (Graded at 70%)
 
-## General
 This project used standard computer vision techniques to detect the presence of dartboards within a variety of sample images.
 
 A a sample hough transform output for concentric circles and clustered lines is given below.
@@ -11,7 +10,6 @@ A a sample hough transform output for concentric circles and clustered lines is 
 This detector uses the hough transform to estimate the center of the dartboard and creates a bounding box around it based on the size of the dartboard.
 
 ![Dartboard Hough Transform](https://github.com/jakeramaer/Computer-Vision-2020/blob/master/detected0.jpg)
-
 
 ## Key Features
 * Sobel operator for object edge detection
